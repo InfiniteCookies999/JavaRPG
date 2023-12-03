@@ -1,0 +1,56 @@
+## this indicates a comment.
+default 5
+space 3
+pad 1
+## Lowercase
+f 4
+i 2
+j 4
+l 3
+m 7
+w 7
+t 4
+x 6
+## Uppercase
+I 5
+J 4
+L 5
+M 9
+W 9
+T 7
+V 7
+Y 7
+Z 7
+## Special
+! 1
+. 2
+: 1
+' 2
+, 3
+; 2
+( 3
+) 3
+# 8
+% 6
+" 5
+& 6
+* 7
++ 7
+- 6
+: 1
+; 2
+< 4
+> 4
+@ 6
+[ 3
+] 3
+^ 7
+` 2
+{ 3
+} 3
+| 3
+~ 6
+## u+7f 7
+## u+80 7
+## u+81 7
+## u+82 7

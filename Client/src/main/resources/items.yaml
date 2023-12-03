@@ -1,0 +1,15 @@
+- texture_id: 0
+  name: "Steel Platebody"
+  catagory: BODY
+- texture_id: 1
+  name: "Steel Cruisses"
+  catagory: LEGS
+- texture_id: 2
+  name: "Steel Bucket-Helm"
+  catagory: HEAD
+- texture_id: 3
+  name: "Uncooked Pork"
+  catagory: BASIC
+- texture_id: 4
+  name: "Bones"
+  catagory: BASIC

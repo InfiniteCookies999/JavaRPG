@@ -1,0 +1,11 @@
+options(
+	"We have a wide selection of products, care to view them?",
+    "Sure!"      @ #openShop,
+    "No thanks!" @ #noThanks
+)
+
+#openShop:
+shop(0)
+
+#noThanks:
+// End of script

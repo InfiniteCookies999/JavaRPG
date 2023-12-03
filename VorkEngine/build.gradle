@@ -1,0 +1,34 @@
+
+plugins {
+    id 'java-library'
+}
+
+apply plugin: 'maven'
+group = 'com.engine.vork'
+version = '1.0'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	
+	 // LWJGL Java native wrapper dependencies
+    compile 'org.lwjgl:lwjgl:3.2.2'
+    compile 'org.lwjgl:lwjgl-glfw:3.2.2'
+    compile 'org.lwjgl:lwjgl-opengl:3.2.2'
+
+     // LWJGL-Natives
+    compile 'org.lwjgl:lwjgl:3.2.2:natives-windows'
+    compile 'org.lwjgl:lwjgl-opengl:3.2.2:natives-windows'
+    compile 'org.lwjgl:lwjgl-glfw:3.2.2:natives-windows'
+    
+    compile 'org.lwjgl:lwjgl:3.2.2:natives-linux'
+    compile 'org.lwjgl:lwjgl-opengl:3.2.2:natives-linux'
+    compile 'org.lwjgl:lwjgl-glfw:3.2.2:natives-linux'
+    
+     // Lombok
+    compileOnly "org.projectlombok:lombok:1.18.12"
+	annotationProcessor 'org.projectlombok:lombok:1.18.12'
+}

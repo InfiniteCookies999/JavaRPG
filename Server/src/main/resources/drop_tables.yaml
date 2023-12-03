@@ -1,0 +1,5 @@
+- name: "pig_droptable"
+  items:
+    - item_name: "Uncooked Pork"
+      amount: 1
+      weight: -1

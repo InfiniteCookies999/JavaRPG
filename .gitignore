@@ -1,0 +1,15 @@
+.metadata
+
+# Build files
+*.class
+*.jar
+bin/
+
+# Gradle cache
+.gradle
+gradle/
+# Gradle build directory
+build/
+
+
+.settings/

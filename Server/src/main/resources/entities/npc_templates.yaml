@@ -1,0 +1,67 @@
+- name: "Pig"
+  speed: 2.0
+  max_health: 10
+  max_hit: 2
+  is_attackable: true
+  level: 3
+  chance_to_move: 0.2
+  chance_to_stop: 0.7
+  renderer:
+    type: BASIC_MOB
+    texture_id: 0
+  drop_table: "pig_droptable"
+- name: "Wolf"
+  speed: 3.0
+  max_health: 26
+  max_hit: 5
+  is_attackable: true
+  level: 12
+  chance_to_move: 0.4
+  chance_to_stop: 0.2
+  renderer:
+    type: BASIC_MOB
+    texture_id: 1
+- name: "Bunny"
+  speed: 3.4
+  max_health: 5
+  max_hit: 1
+  is_attackable: true
+  level: 1
+  chance_to_move: 0.4
+  chance_to_stop: 0.2
+  renderer:
+    type: BASIC_MOB
+    texture_id: 2
+- name: "Soldier"
+  speed: 2.0
+  max_health: 120
+  max_hit: 14
+  is_attackable: true
+  level: 24
+  chance_to_move: 0.5  
+  chance_to_stop: 0.74
+  renderer:
+    type: HUMAN
+    skin_color: 0
+    eye_color: 0
+    hair_style: 2
+    hair_color: 0
+    helm_type: "Steel Bucket-Helm"
+    body_type: "Steel Platebody"
+    legs_type: "Steel Cruisses"
+- name: "Merchant"
+  speed: 3.0
+  max_health: 20
+  max_hit: 1
+  is_attackable: false
+  level: 10
+  chance_to_move: 0.5
+  chance_to_stop: 0.5
+  renderer:
+    type: HUMAN
+    skin_color: 1
+    eye_color: 2    
+    hair_style: 2
+    hair_color: 1
+    body_type: "shirt_2_1"
+    legs_type: "pants_3_2"

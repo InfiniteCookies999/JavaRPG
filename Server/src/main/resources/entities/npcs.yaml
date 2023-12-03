@@ -1,0 +1,70 @@
+# Pigs
+- template: "Pig"
+  spawn_location: [ 11, -5 ]
+  boundry: [ 8, -7, 14, -2 ]
+- template: "Pig"
+  spawn_location: [ 8, -3 ]
+  boundry: [ 8, -7, 14, -2 ]
+- template: "Pig"
+  spawn_location: [ 9, -6 ]
+  boundry: [ 8, -7, 14, -2 ]
+- template: "Pig"
+  spawn_location: [ 13, -4 ]
+  boundry: [ 8, -7, 14, -2 ]
+- template: "Pig"
+  spawn_location: [ 13, -7 ]
+  boundry: [ 8, -7, 14, -2 ]
+# Wolfs
+- template: "Wolf"
+  spawn_location: [ 0, -15 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ -7, -12 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ -13, -16 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ -8, -23 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ -4, -26 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ 4, -22 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ 6, -17 ]
+  boundry: [ -16, -32, 15, -1 ]
+- template: "Wolf"
+  spawn_location: [ 11, -19 ]
+  boundry: [ -16, -32, 15, -1 ]
+# Bunnies
+- template: "Bunny"
+  spawn_location: [ -3, 13 ]
+  boundry: [ -14, 10, 0, 20 ]
+- template: "Bunny"
+  spawn_location: [ -7, 18 ]
+  boundry: [ -14, 10, 0, 20 ]
+- template: "Bunny"
+  spawn_location: [ -10, 14 ]
+  boundry: [ -14, 10, 0, 20 ]
+- template: "Bunny"
+  spawn_location: [ -12, 18 ]
+  boundry: [ -14, 10, 0, 20 ]
+- template: "Bunny"
+  spawn_location: [ -7, 11 ]
+  boundry: [ -14, 10, 0, 20 ]
+# Soilders
+- template: "Soldier"
+  spawn_location: [ 0, 19 ]
+  boundry: [ -2, 18, 0, 20 ]
+  script: "soilder1"
+- template: "Soldier"
+  boundry: [ 3, 18, 5, 20 ]  
+  spawn_location: [ 3, 19 ]
+# Other
+- template: "Merchant"
+  spawn_location: [ 5, 5 ]
+  boundry: [ 0, 0, 5, 7 ]
+  script: "merchant1"

@@ -1,0 +1,17 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+   // Lombok
+    compileOnly "org.projectlombok:lombok:1.18.12"
+	annotationProcessor 'org.projectlombok:lombok:1.18.12'
+	
+	// YAML
+	compile 'org.yaml:snakeyaml:1.21'
+}
